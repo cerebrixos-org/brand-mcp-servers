@@ -25,11 +25,11 @@ claude mcp add --transport http cerebrixos https://forwardeployed.work/mcp
 
 ## Images
 
-Real cards from the product. The diagram is an illustration.
+Taken from the click-through demo on cerebrixos.com (illustrative conversation, demo data). The diagram is an illustration.
 
 | | |
 | --- | --- |
-| ![How the desk works](images/how-the-desk-works.png) | ![Quote: price first](images/quote-price-first.png) |
-| ![Run in progress](images/run-in-progress.png) | ![Run done](images/run-done.png) |
+| ![How the desk works](images/how-the-desk-works.png) | ![Ask and see the quote](images/ask-and-see-the-quote.png) |
+| ![Done: files in your engagement](images/done-files-in-your-engagement.png) | ![Bring in a live expert](images/bring-in-a-live-expert.png) |
 
 Part of Forward Deployed Solutions from CerebrixOS (Ockham Labs Inc.).
