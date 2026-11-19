@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "hyperlake": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "HYPERLAKE_HOST",
+        "-e",
+        "HYPERLAKE_API_KEY",
+        "hyperlake-mcp"
+      ],
+      "env": {
+        "HYPERLAKE_HOST": "https://your-tenant.example.com",
+        "HYPERLAKE_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  }
+}

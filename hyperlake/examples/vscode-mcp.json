@@ -1,0 +1,27 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "hyperlake-api-key",
+      "description": "HyperLake API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "hyperlake": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cerebrixos/hyperlake@latest",
+        "mcp",
+        "serve",
+        "--stdio"
+      ],
+      "env": {
+        "HYPERLAKE_HOST": "https://your-tenant.example.com",
+        "HYPERLAKE_API_KEY": "${input:hyperlake-api-key}"
+      }
+    }
+  }
+}

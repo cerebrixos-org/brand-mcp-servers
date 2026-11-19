@@ -1,0 +1,30 @@
+# Smithery configuration: https://smithery.ai/docs
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - host
+      - apiKey
+    properties:
+      host:
+        type: string
+        description: Your HyperLake tenant URL, including https://
+      apiKey:
+        type: string
+        description: Your HyperLake API key
+  commandFunction: |-
+    (config) => ({
+      command: 'hyperlake',
+      args: ['mcp', 'serve', '--stdio'],
+      env: {
+        HYPERLAKE_HOST: config.host,
+        HYPERLAKE_API_KEY: config.apiKey
+      }
+    })
+  exampleConfig:
+    host: https://your-tenant.example.com
+    apiKey: YOUR_API_KEY
+build:
+  dockerfile: Dockerfile
+  dockerBuildPath: .

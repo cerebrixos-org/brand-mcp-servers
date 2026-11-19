@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "pulselake": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cerebrixos/pulselake-experience@latest",
+        "mcp",
+        "serve",
+        "--stdio"
+      ],
+      "env": {
+        "PULSELAKE_HOST": "https://YOUR_HOST",
+        "PULSELAKE_API_KEY": "YOUR_USER_KEY"
+      }
+    }
+  }
+}

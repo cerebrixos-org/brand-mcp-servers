@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cerebrixos-org/pulselake",
+  "title": "Pulselake Experience Ops",
+  "description": "Create and review AI surveys and chat with Agent Copilots from your AI assistant.",
+  "websiteUrl": "https://pulselake.co",
+  "repository": {
+    "url": "https://github.com/cerebrixos-org/brand-mcp-servers",
+    "source": "github",
+    "subfolder": "pulselake"
+  },
+  "version": "0.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pulselake.co/pulselake-experience-mcp"
+    }
+  ]
+}

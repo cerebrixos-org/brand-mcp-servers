@@ -1,0 +1,27 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "pulselake-api-key",
+      "description": "Pulselake user API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "pulselake": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cerebrixos/pulselake-experience@latest",
+        "mcp",
+        "serve",
+        "--stdio"
+      ],
+      "env": {
+        "PULSELAKE_HOST": "https://YOUR_HOST",
+        "PULSELAKE_API_KEY": "${input:pulselake-api-key}"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+# Smithery configuration: https://smithery.ai/docs
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - host
+      - apiKey
+    properties:
+      host:
+        type: string
+        description: Your Pulselake URL, including https://
+      apiKey:
+        type: string
+        description: Your Pulselake user API key
+  commandFunction: |-
+    (config) => ({
+      command: 'pulselake',
+      args: ['mcp', 'serve', '--stdio'],
+      env: {
+        PULSELAKE_HOST: config.host,
+        PULSELAKE_API_KEY: config.apiKey
+      }
+    })
+  exampleConfig:
+    host: https://YOUR_HOST
+    apiKey: YOUR_USER_KEY
+build:
+  dockerfile: Dockerfile
+  dockerBuildPath: .
