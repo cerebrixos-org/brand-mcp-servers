@@ -43,15 +43,13 @@ Video and Live need approval from the Trazio team before analysis starts.
 
 ## Screenshots
 
-The console screen uses demo data. The other images are illustrative examples with demo numbers.
+From the click-through demo on trazio.cerebrixos.com and the live console (demo data). The diagram and robotics incident are illustrations.
 
 | | |
 | --- | --- |
-| ![How Trazio and MCP work](images/how-trazio-and-mcp-work.png) | ![Robotics incident](images/robotics-incident-illustrative.png) |
-| ![Claude answers from Trazio](images/claude-answers-illustrative.png) | ![Find a video moment](images/find-a-video-moment-illustrative.png) |
-| ![Trazio console: detections and alerts](images/console-detections-and-alerts.png) | ![Security incident](images/security-incident-illustrative.png) |
-| ![Trazio console: add a pipeline](images/console-add-a-pipeline.png) | ![Trazio console: create a rule pack](images/console-create-a-rule-pack.png) |
-| ![Trazio console: robotics data in](images/console-robotics-data-in.png) | ![Six pipeline types](images/six-pipeline-types-illustrative.png) |
+| ![How Trazio and MCP work](images/how-trazio-and-mcp-work.png) | ![Trazio console: detections and alerts](images/console-detections-and-alerts.png) |
+| ![Assistant answers from Trazio](images/assistant-answers-incident.png) | ![Evidence graph: proven vs only a hint](images/evidence-graph-proven-vs-hint.png) |
+| ![Trazio console: robotics data in](images/console-robotics-data-in.png) | ![Robotics incident, illustrative](images/robotics-incident-illustrative.png) |
 
 See [TOOLS.md](TOOLS.md) for the full tool list.
 
