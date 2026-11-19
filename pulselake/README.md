@@ -106,9 +106,9 @@ and does not read the server's filesystem.
 ## Support
 
 - Product and account: [pulselake.co](https://pulselake.co)
-- Email: support@forwardeployed.work
-- Privacy policy: [forwardeployed.work/privacy](https://forwardeployed.work/privacy)
-  and terms: [forwardeployed.work/terms](https://forwardeployed.work/terms)
+- Email: vc@pulselake.co
+- Privacy policy: [pulselake.co/privacy](https://www.pulselake.co/privacy)
+  and terms: [pulselake.co/terms](https://www.pulselake.co/terms)
 - Issues with this repository: open a GitHub issue.
 
 ## License

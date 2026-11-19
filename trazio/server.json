@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cerebrixos-org/trazio",
+  "title": "Trazio",
+  "description": "Ask Claude about your logs, metrics, traces, security events, incidents, robot runs and camera video in Trazio. Read-only.",
+  "websiteUrl": "https://trazio.cerebrixos.com",
+  "repository": {
+    "url": "https://github.com/cerebrixos-org/brand-mcp-servers",
+    "source": "github",
+    "subfolder": "trazio"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://trazio.cerebrixos.com/mcp"
+    }
+  ]
+}
