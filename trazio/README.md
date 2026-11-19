@@ -51,7 +51,7 @@ The console screen uses demo data. The other images are illustrative examples wi
 | ![Claude answers from Trazio](images/claude-answers-illustrative.png) | ![Find a video moment](images/find-a-video-moment-illustrative.png) |
 | ![Trazio console: detections and alerts](images/console-detections-and-alerts.png) | ![Security incident](images/security-incident-illustrative.png) |
 | ![Trazio console: add a pipeline](images/console-add-a-pipeline.png) | ![Trazio console: create a rule pack](images/console-create-a-rule-pack.png) |
-| ![Six pipeline types](images/six-pipeline-types-illustrative.png) | |
+| ![Trazio console: robotics data in](images/console-robotics-data-in.png) | ![Six pipeline types](images/six-pipeline-types-illustrative.png) |
 
 See [TOOLS.md](TOOLS.md) for the full tool list.
 
