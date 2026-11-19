@@ -43,13 +43,14 @@ Video and Live need approval from the Trazio team before analysis starts.
 
 ## Screenshots
 
-Illustrative examples with demo numbers.
+The console screen uses demo data. The other images are illustrative examples with demo numbers.
 
 | | |
 | --- | --- |
 | ![How Trazio and MCP work](images/how-trazio-and-mcp-work.png) | ![Robotics incident](images/robotics-incident-illustrative.png) |
 | ![Claude answers from Trazio](images/claude-answers-illustrative.png) | ![Find a video moment](images/find-a-video-moment-illustrative.png) |
-| ![Security incident](images/security-incident-illustrative.png) | ![Six pipeline types](images/six-pipeline-types-illustrative.png) |
+| ![Trazio console: detections and alerts](images/console-detections-and-alerts.png) | ![Security incident](images/security-incident-illustrative.png) |
+| ![Six pipeline types](images/six-pipeline-types-illustrative.png) | |
 
 See [TOOLS.md](TOOLS.md) for the full tool list.
 
