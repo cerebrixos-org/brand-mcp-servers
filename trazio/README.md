@@ -47,9 +47,9 @@ Illustrative examples with demo numbers.
 
 | | |
 | --- | --- |
-| ![Claude answers from Trazio](images/claude-answers-illustrative.png) | ![Robotics incident](images/robotics-incident-illustrative.png) |
-| ![Find a video moment](images/find-a-video-moment-illustrative.png) | ![Security incident](images/security-incident-illustrative.png) |
-| ![Six pipeline types](images/six-pipeline-types-illustrative.png) | |
+| ![How Trazio and MCP work](images/how-trazio-and-mcp-work.png) | ![Robotics incident](images/robotics-incident-illustrative.png) |
+| ![Claude answers from Trazio](images/claude-answers-illustrative.png) | ![Find a video moment](images/find-a-video-moment-illustrative.png) |
+| ![Security incident](images/security-incident-illustrative.png) | ![Six pipeline types](images/six-pipeline-types-illustrative.png) |
 
 See [TOOLS.md](TOOLS.md) for the full tool list.
 
