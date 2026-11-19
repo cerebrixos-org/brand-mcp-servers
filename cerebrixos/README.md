@@ -25,11 +25,12 @@ claude mcp add --transport http cerebrixos https://forwardeployed.work/mcp
 
 ## Images
 
-Taken from the click-through demo on cerebrixos.com (illustrative conversation, demo data). The diagram is an illustration.
+Real screens from the Forward Deployed workspace and the click-through demo on cerebrixos.com. The diagram is an illustration.
 
 | | |
 | --- | --- |
-| ![How the desk works](images/how-the-desk-works.png) | ![Ask and see the quote](images/ask-and-see-the-quote.png) |
-| ![Done: files in your engagement](images/done-files-in-your-engagement.png) | ![Bring in a live expert](images/bring-in-a-live-expert.png) |
+| ![How the desk works](images/how-the-desk-works.png) | ![Services catalogue](images/services-catalogue.png) |
+| ![Process audit service](images/process-audit-service.png) | ![Ask and see the quote](images/ask-and-see-the-quote.png) |
+| ![Bring in a live expert](images/bring-in-a-live-expert.png) | |
 
 Part of Forward Deployed Solutions from CerebrixOS (Ockham Labs Inc.).
