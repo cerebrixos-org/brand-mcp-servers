@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "forward-deployed": {
+      "type": "streamableHttp",
+      "url": "https://forwardeployed.work/mcp",
+      "disabled": false
+    }
+  }
+}

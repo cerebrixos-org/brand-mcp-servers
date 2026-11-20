@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "trazio": {
+      "type": "streamableHttp",
+      "url": "https://trazio.cerebrixos.com/mcp",
+      "disabled": false
+    }
+  }
+}

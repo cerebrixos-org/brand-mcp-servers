@@ -1,0 +1,49 @@
+# Publishes server.json files to the official MCP Registry
+# (registry.modelcontextprotocol.io). Run by hand only: Actions > Publish to MCP Registry.
+# Signs in with GitHub OIDC, which covers names under io.github.cerebrixos-org/.
+# Servers under a domain name (such as work.forwardeployed/*) need DNS sign-in instead
+# and are published by hand.
+name: Publish to MCP Registry
+
+on:
+  workflow_dispatch:
+    inputs:
+      products:
+        description: "Folders to publish, separated by spaces (for example: trazio hyperlake pulselake)"
+        required: true
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check listings
+        run: |
+          pip install jsonschema
+          python3 scripts/check_listings.py
+      - name: Install mcp-publisher
+        run: |
+          curl -sSL "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz" | tar xz mcp-publisher
+          ./mcp-publisher --help > /dev/null
+      - name: Sign in with GitHub OIDC
+        run: ./mcp-publisher login github-oidc
+      - name: Publish
+        env:
+          PRODUCTS: ${{ inputs.products }}
+        run: |
+          for product in $PRODUCTS; do
+            case "$product" in
+              *[!a-z0-9_-]*) echo "Bad folder name: $product"; exit 1 ;;
+            esac
+            name=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['name'])" "$product/server.json")
+            case "$name" in
+              io.github.cerebrixos-org/*) ;;
+              *) echo "Skipping $product: $name needs DNS sign-in, publish it by hand"; continue ;;
+            esac
+            echo "Publishing $name from $product/"
+            (cd "$product" && ../mcp-publisher publish)
+          done

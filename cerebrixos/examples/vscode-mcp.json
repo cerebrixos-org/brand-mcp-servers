@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "forward-deployed": {
+      "type": "http",
+      "url": "https://forwardeployed.work/mcp"
+    }
+  }
+}

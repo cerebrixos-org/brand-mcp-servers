@@ -2,55 +2,14 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cerebrixos-org/hyperlake",
   "title": "HyperLake",
-  "description": "Query, manage and govern your HyperLake data lake: SQL, catalogs, dashboards, apps and agents.",
+  "description": "Manage your HyperLake data lake: clusters, catalogs, access policy, apps and agents.",
   "websiteUrl": "https://hyperlake.cloud",
   "repository": {
     "url": "https://github.com/cerebrixos-org/brand-mcp-servers",
     "source": "github",
     "subfolder": "hyperlake"
   },
-  "version": "0.3.0",
-  "packages": [
-    {
-      "registryType": "npm",
-      "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "@cerebrixos/hyperlake",
-      "version": "0.3.0",
-      "runtimeHint": "npx",
-      "transport": {
-        "type": "stdio"
-      },
-      "packageArguments": [
-        {
-          "type": "positional",
-          "value": "mcp"
-        },
-        {
-          "type": "positional",
-          "value": "serve"
-        },
-        {
-          "type": "named",
-          "name": "--stdio"
-        }
-      ],
-      "environmentVariables": [
-        {
-          "name": "HYPERLAKE_HOST",
-          "description": "Your HyperLake tenant URL, including https://",
-          "isRequired": true,
-          "format": "string"
-        },
-        {
-          "name": "HYPERLAKE_API_KEY",
-          "description": "Your HyperLake API key",
-          "isRequired": true,
-          "isSecret": true,
-          "format": "string"
-        }
-      ]
-    }
-  ],
+  "version": "0.4.0",
   "remotes": [
     {
       "type": "streamable-http",
