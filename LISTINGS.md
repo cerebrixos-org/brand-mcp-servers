@@ -6,7 +6,7 @@ Status: **live**, **submitted** (waiting on review), **ready** (text prepared in
 
 | Directory | How to get listed | Who submits | HyperLake | PulseLake Experience Ops | Trazio | Forward Deployed | Watchtower |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Official MCP Registry](https://registry.modelcontextprotocol.io) | `server.json`, published with the [Publish to MCP Registry](.github/workflows/publish-mcp-registry.yml) workflow | Workflow, run by hand | ready | ready | ready | live (`work.forwardeployed/forward-deployed`) | ready |
+| [Official MCP Registry](https://registry.modelcontextprotocol.io) | `server.json`, published with the [Publish to MCP Registry](.github/workflows/publish-mcp-registry.yml) workflow | Workflow, run by hand | live | live | live | live (`work.forwardeployed/forward-deployed`) | live |
 | [GitHub MCP Registry](https://github.com/mcp) | Official registry entry, then an onboarding request in the github-mcp-server discussions | Owner (GitHub account) | after registry | after registry | after registry | ready | after registry |
 | [Glama](https://glama.ai/mcp/connectors) | Add the connector URL, then claim it with `glama.json` or the Glama claim token | Owner (Glama account) | ready | ready | ready | ready | ready |
 | [awesome-remote-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-remote-mcp-servers) | Pull request; needs a Glama connector badge first | PR | after Glama | after Glama | after Glama | after Glama | after Glama |
