@@ -26,3 +26,9 @@ One issue per server at https://github.com/cline/mcp-marketplace/issues/new?temp
 - **Logo Image:** `cerebrixos/icon.png`
 - **Reason for Addition:** Forward Deployed is an AI expert desk inside the assistant: research, strategy, finance and technology work, with a price shown and approval required before any paid job runs. Hosted over Streamable HTTP with OAuth, so there is nothing to install and no key to paste.
 
+## Watchtower
+
+- **GitHub Repo URL:** https://github.com/cerebrixos-org/brand-mcp-servers/tree/HEAD/watchtower
+- **Logo Image:** `watchtower/icon.png`
+- **Reason for Addition:** Watchtower scans Azure, AWS and Google Cloud accounts for security, cost and drift findings and runs compliance assessments. Infrastructure changes only through a pull request a person merges, and OAuth sign-in grants read and scan access only. Hosted over Streamable HTTP with OAuth, so there is nothing to install and no key to paste.
+

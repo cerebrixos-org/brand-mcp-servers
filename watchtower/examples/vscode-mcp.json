@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "watchtower": {
+      "type": "http",
+      "url": "https://watchtower.cerebrixos.com/mcp"
+    }
+  }
+}

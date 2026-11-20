@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cerebrixos-org/watchtower",
+  "title": "Watchtower",
+  "description": "Watches reliability, change safety, security and cloud cost across your code and clouds.",
+  "websiteUrl": "https://watchtower.cerebrixos.com",
+  "repository": {
+    "url": "https://github.com/cerebrixos-org/brand-mcp-servers",
+    "source": "github",
+    "subfolder": "watchtower"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://watchtower.cerebrixos.com/mcp"
+    }
+  ]
+}

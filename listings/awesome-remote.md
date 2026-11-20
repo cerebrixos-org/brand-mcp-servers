@@ -28,6 +28,12 @@ Needs a Glama connector for each server first; replace `GLAMA_ID` with the rever
   🔐 - Research, strategy, financial models and decks, priced and approved per job, in your AI assistant.
 ```
 
+```markdown
+- [Watchtower](https://watchtower.cerebrixos.com) `https://watchtower.cerebrixos.com/mcp`
+  [![Watchtower MCP connector](https://glama.ai/mcp/connectors/GLAMA_ID/badges/score.svg)](https://glama.ai/mcp/connectors/GLAMA_ID)
+  🔐 - Watches reliability, change safety, security and cloud cost across your code and clouds.
+```
+
 ## jaw9c/awesome-remote-mcp-servers
 
 Table row format; match the category table in the README at submission time. Auth: OAuth 2.1.
@@ -36,3 +42,4 @@ Table row format; match the category table in the README at submission time. Aut
 | [PulseLake Experience Ops](https://pulselake.co) | `https://mcp.pulselake.co/pulselake-experience-mcp` | OAuth 2.1 | Create and review AI surveys and chat with Agent Copilots from your AI assistant. |
 | [Trazio](https://trazio.cerebrixos.com) | `https://trazio.cerebrixos.com/mcp` | OAuth 2.1 | Ask your AI assistant about your logs, traces, security events, robot runs and video. Read-only. |
 | [Forward Deployed](https://forwardeployed.work) | `https://forwardeployed.work/mcp` | OAuth 2.1 | Research, strategy, financial models and decks, priced and approved per job, in your AI assistant. |
+| [Watchtower](https://watchtower.cerebrixos.com) | `https://watchtower.cerebrixos.com/mcp` | OAuth 2.1 | Watches reliability, change safety, security and cloud cost across your code and clouds. |

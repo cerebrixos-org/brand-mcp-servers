@@ -8,6 +8,7 @@ Documentation, client configuration and registry entries for the Model Context P
 | PulseLake Experience Ops | Create and review AI surveys and chat with Agent Copilots | `https://mcp.pulselake.co/pulselake-experience-mcp` | [pulselake/](pulselake) |
 | Trazio | Ask your AI assistant about your logs, traces, security events, robot runs and video. Read-only | `https://trazio.cerebrixos.com/mcp` | [trazio/](trazio) |
 | Forward Deployed | Research, strategy, financial models and decks, priced and approved per job | `https://forwardeployed.work/mcp` | [cerebrixos/](cerebrixos) |
+| Watchtower | Watches reliability, change safety, security and cloud cost across your code and clouds | `https://watchtower.cerebrixos.com/mcp` | [watchtower/](watchtower) |
 
 Each hosted connector signs you in to your own tenant with OAuth and runs with your permissions. You need an account for the product.
 

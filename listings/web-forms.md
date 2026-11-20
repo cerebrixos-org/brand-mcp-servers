@@ -74,3 +74,21 @@ Copy these into mcp.so, mcpservers.org, MCP Market, mcp.directory, cursor.direct
 | Logo | `cerebrixos/icon.png` |
 | Support | support@cerebrixos.com |
 
+## Watchtower
+
+| Field | Value |
+| --- | --- |
+| Name | Watchtower |
+| Short description | Watches reliability, change safety, security and cloud cost across your code and clouds. |
+| Long description | Watchtower scans Azure, AWS and Google Cloud accounts for security, cost and drift findings and runs compliance assessments. Infrastructure changes only through a pull request a person merges, and OAuth sign-in grants read and scan access only. |
+| Website | https://watchtower.cerebrixos.com |
+| Repository | https://github.com/cerebrixos-org/brand-mcp-servers/tree/HEAD/watchtower |
+| MCP endpoint | `https://watchtower.cerebrixos.com/mcp` |
+| Transport | Streamable HTTP |
+| Authentication | OAuth (sign in with GitHub or Microsoft) |
+| Official registry name | `io.github.cerebrixos-org/watchtower` |
+| Category | Monitoring |
+| Tags | security, finops, cloud, compliance |
+| Logo | `watchtower/icon.png` |
+| Support | support@cerebrixos.com |
+
