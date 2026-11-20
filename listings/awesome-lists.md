@@ -72,6 +72,25 @@ The Survey section lists commercial tools (Hotjar, Pendo, Refiner).
 - Section "Survey":
   `- [PulseLake](https://pulselake.co) - AI-generated surveys and synthetic persona research, with submissions and Agent Copilots available to AI assistants over MCP.`
 
+### More MCP lists (format: copy the list's existing entries)
+
+Use the short descriptions from [web-forms.md](web-forms.md) and the endpoint URLs; mark every server as hosted with OAuth sign-in and an account needed.
+
+- sylviangth/awesome-remote-mcp-servers: free and commercial welcome; state that each needs a paid or trial account.
+- appcypher/awesome-mcp-servers, habitoai/awesome-mcp-servers, yzfly/Awesome-MCP-ZH: one line per server in the matching category.
+- TensorBlock/awesome-mcp-servers: the repository's submit-server issue form, one per server.
+- hashgraph-online/awesome-ai-plugins: Trazio, Watchtower and Forward Deployed as remote MCP plugins.
+
+### jamesmurdza/awesome-ai-devtools
+
+Lists proprietary tools; read its pull request template rules first.
+
+- `- [Watchtower](https://watchtower.cerebrixos.com) — Comments on infrastructure pull requests with the live resources they touch, dependents and a risk score, and proposes cloud fixes as pull requests.`
+
+### e2b-dev/awesome-ai-agents, also
+
+- `Simulations` (https://simulations.cerebrixos.com): Decision simulation AI agent that runs synthetic persona research and multi-round world simulations before you commit to a decision.
+
 ## Skipped, and why
 
 | List | Why not |
