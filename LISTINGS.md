@@ -12,7 +12,7 @@ Status: **live**, **submitted** (waiting on review), **ready** (text prepared in
 | [awesome-remote-mcp-servers (punkpeye)](https://github.com/punkpeye/awesome-remote-mcp-servers) | Pull request; needs a Glama connector badge first | PR | after Glama | after Glama | after Glama | after Glama |
 | [awesome-remote-mcp-servers (jaw9c)](https://github.com/jaw9c/awesome-remote-mcp-servers) | Pull request | PR | ready | ready | ready | ready |
 | [Docker MCP Catalog](https://hub.docker.com/mcp) | Pull request to docker/mcp-registry with `server.yaml`, `tools.json`, `readme.md` | PR | ready | ready | ready | ready |
-| [Cline MCP Marketplace](https://github.com/cline/mcp-marketplace) | Issue with repo link and 400 x 400 logo | Issue | ready | ready | needs icon | ready |
+| [Cline MCP Marketplace](https://github.com/cline/mcp-marketplace) | Issue with repo link and 400 x 400 logo | Issue | ready | ready | ready | ready |
 | [Microsoft MCP Center](https://github.com/Azure/mcp-center) | Comment on issue #4 with server details | Issue comment | ready | ready | ready | ready |
 | [PulseMCP](https://www.pulsemcp.com) | Closed to submissions; imports from the official registry | none | auto | auto | auto | auto |
 | [mcp.directory](https://mcp.directory/submit) | Form with repo URL; also imports from the official registry | Owner | auto | auto | auto | auto |

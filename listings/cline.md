@@ -17,7 +17,7 @@ One issue per server at https://github.com/cline/mcp-marketplace/issues/new?temp
 ## Trazio
 
 - **GitHub Repo URL:** https://github.com/cerebrixos-org/brand-mcp-servers/tree/HEAD/trazio
-- **Logo Image:** `trazio/icon.png` (not yet in the repo)
+- **Logo Image:** `trazio/icon.png`
 - **Reason for Addition:** Trazio is one pipeline for logs, metrics, traces, security events, robot data and video. The connector is read-only and limited to the pipelines the signed-in person was given. Hosted over Streamable HTTP with OAuth, so there is nothing to install and no key to paste.
 
 ## Forward Deployed

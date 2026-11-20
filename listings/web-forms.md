@@ -53,7 +53,7 @@ Copy these into mcp.so, mcpservers.org, MCP Market, mcp.directory, cursor.direct
 | Official registry name | `io.github.cerebrixos-org/trazio` |
 | Category | Monitoring |
 | Tags | observability, logs, security, monitoring |
-| Logo | `trazio/icon.png` (not yet in the repo) |
+| Logo | `trazio/icon.png` |
 | Support | support@cerebrixos.com |
 
 ## Forward Deployed
