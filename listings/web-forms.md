@@ -1,12 +1,14 @@
 # Web form answers
 
-Copy these into mcp.so, mcpservers.org, MCP Market, mcp.directory, cursor.directory, LobeHub, Glama and Smithery. Use the free queue unless you choose a paid fast lane. Every server is hosted (remote), uses OAuth, and needs an account for the product.
+Copy these into mcp.so, mcpservers.org, MCP Market, mcp.directory, cursor.directory, LobeHub, Glama and Smithery. Use the free queue unless you choose a paid fast lane. Every server is hosted (remote), uses OAuth, and needs an account for the product. HyperLake and PulseLake Experience Ops also ship a CLI on npm that runs the same server locally over stdio; where a form has both a remote and a local option, fill in both.
 
 ## HyperLake
 
 | Field | Value |
 | --- | --- |
 | Name | HyperLake |
+| Also runs locally | Yes: CLI on npm, [`@cerebrixos/hyperlake`](https://www.npmjs.com/package/@cerebrixos/hyperlake) |
+| Local (stdio) command | `npx -y @cerebrixos/hyperlake@latest mcp serve --stdio` (needs `HYPERLAKE_HOST` and `HYPERLAKE_API_KEY`) |
 | Short description | Manage your HyperLake data lake: clusters, catalogs, access policy, apps and agents. |
 | Long description | HyperLake is a managed data lake. The hosted connector lets an assistant list clusters, manage catalogs and access grants, and inspect apps and agents with the signed-in user's permissions. Write tools carry destructive hints and need confirmation. |
 | Website | https://hyperlake.cloud |
@@ -25,6 +27,8 @@ Copy these into mcp.so, mcpservers.org, MCP Market, mcp.directory, cursor.direct
 | Field | Value |
 | --- | --- |
 | Name | PulseLake Experience Ops |
+| Also runs locally | Yes: CLI on npm, [`@cerebrixos/pulselake-experience`](https://www.npmjs.com/package/@cerebrixos/pulselake-experience) |
+| Local (stdio) command | `npx -y @cerebrixos/pulselake-experience@latest mcp serve --stdio` (needs `PULSELAKE_HOST` and `PULSELAKE_API_KEY`) |
 | Short description | Create and review AI surveys and chat with Agent Copilots from your AI assistant. |
 | Long description | PulseLake Experience Ops lets an assistant create AI surveys, read submissions and respondents, and chat with Agent Copilots, inside the user's own tenant and permissions. |
 | Website | https://pulselake.co |

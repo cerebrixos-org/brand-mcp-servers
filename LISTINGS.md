@@ -27,3 +27,13 @@ Status: **live**, **submitted** (waiting on review), **ready** (text prepared in
 | [ChatGPT apps](https://developers.openai.com/apps-sdk) | Product review with verified publisher account | Owner | later | later | later | later | later |
 
 Not used: `modelcontextprotocol/servers` (third-party list retired), `punkpeye/awesome-mcp-servers` (only servers whose source you can install; hosted servers go to the remote list), `wong2/awesome-mcp-servers` (takes no pull requests; use mcpservers.org), goose extensions (closed; uses the official registry), mcp-get (npm and PyPI packages only).
+
+## CLIs
+
+| CLI | Package | Runs the MCP server locally | Registry `packages` entry |
+| --- | --- | --- | --- |
+| HyperLake | [`@cerebrixos/hyperlake`](https://www.npmjs.com/package/@cerebrixos/hyperlake) | `hyperlake mcp serve --stdio` | Blocked: the package needs `"mcpName": "io.github.cerebrixos-org/hyperlake"` in its `package.json` |
+| PulseLake Experience Ops | [`@cerebrixos/pulselake-experience`](https://www.npmjs.com/package/@cerebrixos/pulselake-experience) | `pulselake mcp serve --stdio` | Blocked: needs `"mcpName": "io.github.cerebrixos-org/pulselake"` |
+
+Once a CLI release carries `mcpName`, add its `packages` block back to that product's `server.json` and publish a new version, so the registry and the directories that copy it show both the hosted and the local install.
+
