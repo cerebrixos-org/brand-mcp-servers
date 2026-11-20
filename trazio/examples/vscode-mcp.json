@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "trazio": {
+      "type": "http",
+      "url": "https://trazio.cerebrixos.com/mcp"
+    }
+  }
+}

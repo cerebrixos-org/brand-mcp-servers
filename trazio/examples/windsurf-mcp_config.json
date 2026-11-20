@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "trazio": {
+      "serverUrl": "https://trazio.cerebrixos.com/mcp"
+    }
+  }
+}

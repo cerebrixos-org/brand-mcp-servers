@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "PRODUCT_SLUG": {
+      "url": "https://PRODUCT_MCP_URL"
+    }
+  }
+}

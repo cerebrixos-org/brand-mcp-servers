@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "watchtower": {
+      "serverUrl": "https://watchtower.cerebrixos.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "watchtower": {
+      "type": "streamableHttp",
+      "url": "https://watchtower.cerebrixos.com/mcp",
+      "disabled": false
+    }
+  }
+}

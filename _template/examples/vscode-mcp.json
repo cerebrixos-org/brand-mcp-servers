@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "PRODUCT_SLUG": {
+      "type": "http",
+      "url": "https://PRODUCT_MCP_URL"
+    }
+  }
+}

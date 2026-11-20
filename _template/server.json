@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.cerebrixos-org/PRODUCT_SLUG",
+  "title": "PRODUCT_TITLE",
+  "description": "PRODUCT_ONE_LINE_DESCRIPTION_UP_TO_100_CHARACTERS",
+  "websiteUrl": "https://PRODUCT_WEBSITE",
+  "repository": {
+    "url": "https://github.com/cerebrixos-org/brand-mcp-servers",
+    "source": "github",
+    "subfolder": "PRODUCT_SLUG"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://PRODUCT_MCP_URL"
+    }
+  ]
+}
